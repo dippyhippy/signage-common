@@ -35,5 +35,11 @@
     "grunt-noflo-manifest": "~0.1.11",
     "grunt-noflo-browser": "^0.1.1"
   },
-  "keywords": []
+  "keywords": [],
+  "noflo": {
+    "components": {
+      "BranchOnMode": "components/BranchOnMode.js",
+      "DoSomething": "components/DoSomething.coffee"
+    }
+  }
 }

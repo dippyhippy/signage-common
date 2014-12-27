@@ -4,8 +4,7 @@
   "author": "Ben Major <ben@godalming.it>",
   "repo": "ben/signage-common",
   "version": "0.0.1",
-  "keywords": [
-  ],
+  "keywords": [],
   "dependencies": {
     "noflo/noflo": "*"
   },
@@ -13,6 +12,17 @@
     "https://raw.githubusercontent.com"
   ],
   "scripts": [
-    "index.js"
-  ]
+    "index.js",
+    "components/BranchOnMode.js",
+    "components/DoSomething.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "BranchOnMode": "components/BranchOnMode.js",
+      "DoSomething": "components/DoSomething.coffee"
+    }
+  }
 }
