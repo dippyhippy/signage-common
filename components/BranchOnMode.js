@@ -8,8 +8,8 @@ exports.getComponent = function () {
       return;
     }
     // Do something with the packet, then
-    if (payload === 'server' {
-    	c.outPorts.out.send(payload);
+    if (payload === 'server') {
+    	c.outPorts.server.send(payload);
     }    
   });
   c.outPorts.add('server');
